@@ -1,0 +1,3 @@
+The solution is to ensure that you use compatible units within the `calc()` function.  The most common scenario is to stick to a single length unit type or perform calculations with percentages and lengths that are compatible. 
+
+For example, instead of `width: calc(100% - 10s);` (incorrect), use `width: calc(100% - 10px);` (correct) or `width: calc(50vw - 2em);` (correct).  The corrected `bugSolution.css` file will showcase the improved CSS code without the unit mismatch.
