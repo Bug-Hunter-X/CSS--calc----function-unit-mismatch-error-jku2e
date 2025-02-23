@@ -1,0 +1,3 @@
+# CSS `calc()` Unit Mismatch Bug
+
+This repository demonstrates a common, yet subtle, error that can occur when using the `calc()` function in CSS.  The bug arises from mixing incompatible units within the calculation, leading to unexpected results or silent failures.  The solution shows how to correctly use the `calc()` function to prevent such errors.  The `bug.css` file contains the buggy code, while `bugSolution.css` provides the corrected version.  Refer to the `bug.css` file for the buggy code and to the `bugSolution.css` for the corrected code.
